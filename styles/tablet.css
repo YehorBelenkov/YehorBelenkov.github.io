@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+@media (min-width: 501px) and (max-width: 768px){
+  body {
+    margin: 0;
+    background-color: #004225;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  .pc_only{
+    display: none;
+  }
+  .menu {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    flex-wrap: wrap;
+  }
+
+  .menu h1 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%; /* Modified value */
+    gap: 1.5rem;
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+
+  .icons img {
+    width: 25%;
+  }
+  @media (min-width: 749px) and (max-width: 768px){
+    .menu{
+      margin-top: 3rem;
+    }
+    .icons{
+      position: absolute;
+      left: 70%;
+    }
+  }
+  .main_body {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+
+  .main_body img {
+    width: 40%;
+  }
+
+  .main_body .text_copy {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .downloads_copy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .download_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .download_container img{
+    width: 35%;
+    margin: 0.5rem;
+  }
+  @media (min-width: 512px) and (max-width: 768px) {
+    .main_body img {
+      width: 30%; 
+    }
+    .icons {
+      display: flex;
+      justify-content: flex-end;
+      width: 30%; /* Modified value */
+      gap: 1.5rem;
+      margin-left: auto;
+      margin-right: 1rem;
+    }
+    .main_body .text_copy {
+      display: flex;
+      width: 70%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-top: -15%;
+    }
+    .main_body h1{
+      font-size: 32px;
+    }
+    .downloads_copy{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-top: -25%;
+    }
+    .download_container img{
+      width: 40%;
+      margin: 0.5rem;
+    }
+  }
+  .list_container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .list_container li{
+    font-size: 30px;
+    color: white;
+  }
+  /* introduction_container--------------------------------------- */
+  .introduction_menu{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  .introduction_menu .dots{
+    width: 20%;
+    position: absolute;
+  }
+  .introduction_menu img{
+    width: 25%;
+  }
+  .introduction_text{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .introduction_text h1{
+    color: white;
+    font-weight: 700;
+    margin: 0;
+  }
+  @media (min-width: 630px) and (max-width: 768px){
+    .introduction_text h1{
+      color: white;
+      font-weight: 700;
+      margin: 0;
+      font-size: 42px;
+    }
+  }
+  .introduction_text img{
+    margin-top: 1rem;
+  }
+  .introduction_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .side_container {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .side_el{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .side_el h3{
+    color: white;
+    margin: 0;
+  }
+  .side_el img{
+    width: 35%;
+  }
+  .middle_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .middle_container img{
+    width: 30%;
+    margin-top: 4rem;
+  }
+  .middle_container img:nth-child(2){
+    margin: 0;
+  }
+  /* Next Introduction introduction_text1 ------------------------------------------------*/
+  .introduction_text1{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 1rem;
+  }
+  .introduction_text1 div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .introduction_text1 div h1{
+    color: white;
+    font-weight: 700;
+    margin: 0 auto;
+  }
+  .introduction_text1 div div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .introduction_text1 div div p{
+    color: white;
+    margin: 0;
+    font-size: 11px;
+  }
+  @media (min-width: 630px) and (max-width: 768px) {
+    .introduction_text1 div div p{
+      color: white;
+      margin: 0;
+      font-size: 17px;
+    }
+  }
+  @media (min-width: 550px) and (max-width: 629px) {
+    .introduction_text1 div div p{
+      color: white;
+      margin: 0;
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 501px) and (max-width: 549px) {
+    .introduction_text1 div div p{
+      color: white;
+      margin: 0;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 480px) {
+    .introduction_text1 img {
+      display: none;
+    }
+  }
+  /* road_map----------------------------------------------------------------------------------------- */
+  .road_map {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    color: white;
+  }
+  
+  .road_map .road_map_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .road_map_container h1{
+    font-weight: 700;
+  }
+  .road_map_container ul {
+    width: 100%;
+    padding-left: 1.2rem;
+    list-style: none; /* Add this line */
+  }
+  .road_map ul h2 {
+    display: block; /* Change display property */
+    margin: 0 auto;
+  }
+  .road_map_images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .road_map_images img{
+    width: 40%;
+  }
+  /* Features ---------------------------------------------------------------------------------*/
+  .features_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .features_container h1{
+    color: white;
+    margin: 0 auto;
+    font-weight: 700;
+  }
+  .features_container ul{
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .features_container ul li{
+    font-size: 18px;
+  }
+  @media (min-width: 630px) and (max-width: 768px){
+    .road_map_container h1, .introduction_text1 h1, .features_container h1{
+      font-size: 42px;
+    }
+    .road_map_container ul li, .features_container ul li{
+      font-size: 25px;
+    }
+  }
+  /* Best Features ---------------------------------------------------------------------*/
+  .best_features_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+.listing_items {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.listed_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.listed_item p{
+  margin: 0;
+  color: white;
+}
+
+.numiral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.numiral img {
+    width: 30%;
+}
+
+.numiral h1 {
+    position: absolute;
+    font-weight: 700;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+  }
+  @media (min-width: 630px) and (max-width: 768px){
+    .numiral img {
+      width: 40%;
+  }
+    .numiral h1{
+      font-size: 32px;
+    }
+    .listed_item p{
+      font-size: 20px;
+    }
+    .best_features_container{
+      height: 20vh;
+    }
+    .best_features_container h1{
+      font-size: 42px;
+    }
+  }
+}
